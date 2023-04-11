@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body,ul,li{
+    list-style: none;
+    font-size: 20px;
+    font-family: arial;
+    display: inline;
+    margin-left: 15px;
+}
+p{
+    margin-top: 20px;
+}
+.header{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;  
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    color: blue;
+    transition: .6s;
+    border-bottom: lightgreen solid 2px;
+}
+.prin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-img-top{
+    height: 180px;
+    width: 150px;
+}
+.cred{
+    text-align:right;
+}
